@@ -1,0 +1,106 @@
+@charset "utf-8";
+body {
+	background-color: #98520c;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+img {
+	display: block;
+}
+
+#wrapper {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 10px solid #000;
+	border-bottom: 10px solid #000;
+	background-color: #FFF;
+}
+
+#header {
+	display: flex;
+}
+
+#logos{
+	width: 600px;
+}
+
+#logo_top {
+	margin: 6px, auto, 6px, auto;
+	margin: 6px;
+}
+
+#logo_bottom {
+	background-color: #000000;
+	padding-left: 322px;
+}
+
+#nav {
+	width: 145px;
+	background-image: url(images/guitar.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#nav  ul {
+	background: #CE8A21;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#nav li {
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+}
+
+#nav a {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#nav a:hover {
+}
+
+#content {
+	display: flex;
+}
+
+#main {
+	width: 430px;
+	background: #FFF;
+	padding-top: 10px;
+}
+
+#main p {
+	font-size: 14px;
+	margin: 0px 10px 16px 10px;
+	border-bottom: black 1px dotted;
+	padding: 0px 0px 16px 0px;
+}
+
+#main img {
+	float: right;
+}
+
+#side {
+	width: 175px;
+	background-color: #FFC;
+
+}
+
+#side p {
+	font-size: 13px;
+	margin: 10px 10px 10px 10px;
+}
+
+#side h3 {
+	font-size: 15px;
+	margin: 10px 10px 0px 10px;
+}
+
+#side img {
+	margin: 16px;
+}
